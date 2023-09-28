@@ -6,10 +6,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CalculatorController {
+
+
+    // Want to return type object
     @GetMapping("/calculate")
-    public String calculate(@RequestParam int num1,
-                         @RequestParam int num2,
-                         @RequestParam String operation){
+    public Object calculate(@RequestParam int num1,
+                            @RequestParam int num2,
+                            @RequestParam String operation){
+
+        Total calcTotal = new Total(num1, num2, operation); // total instance to store the output information
+
         int total = 0;
         String symbol = " + ";
 
