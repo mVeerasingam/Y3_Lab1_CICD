@@ -1,11 +1,11 @@
 package com.example.lab1;
 
-// make a class to store information about what operation you'll use and to return the total
-// total is a number
+// this class performs the calculation based on a switch from the desired operator i.e. add or divide
 
 public class CalculatorFunction {
     private int num1;
     private int num2;
+    private int total;
     private String operation;
 
     // constructor
@@ -16,9 +16,7 @@ public class CalculatorFunction {
     }
 
     //calculator method
-    public int calculateTotal(){
-        int total = 0;
-
+    public int calculate(){
         switch (operation) {
             case "add":
                 total = num1 + num2;
@@ -35,7 +33,6 @@ public class CalculatorFunction {
             default:
                 System.out.println("Invalid operation: " + operation);
         }
-
         return total;
     }
 }

@@ -1,7 +1,8 @@
 package com.example.lab1;
 
-// this code returns int and string to
-// ref code: https://stackoverflow.com/questions/10328604/return-a-string-and-int
+// make a class to store information about what operation you'll use and to return the total
+// this code returns an int(total) and string(operation)
+// ref: https://stackoverflow.com/questions/10328604/return-a-string-and-int
 
 public class CalculatorReturnTotal {
     private String operation;
