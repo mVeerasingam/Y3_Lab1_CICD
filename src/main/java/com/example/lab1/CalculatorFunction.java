@@ -4,9 +4,9 @@ package com.example.lab1;
 // total is a number
 
 public class CalculatorFunction {
-    int num1;
-    int num2;
-    String operation;
+    private int num1;
+    private int num2;
+    private String operation;
 
     // constructor
     public CalculatorFunction(int num1, int num2, String operation) {
@@ -15,6 +15,7 @@ public class CalculatorFunction {
         this.operation = operation;
     }
 
+    //calculator method
     public int calculateTotal(){
         int total = 0;
 
