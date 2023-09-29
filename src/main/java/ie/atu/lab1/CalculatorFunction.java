@@ -1,4 +1,4 @@
-package com.example.lab1;
+package ie.atu.lab1;
 
 // this class performs the calculation based on a switch from the desired operator i.e. add or divide
 

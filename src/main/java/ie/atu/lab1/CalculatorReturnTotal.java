@@ -1,4 +1,4 @@
-package com.example.lab1;
+package ie.atu.lab1;
 
 // make a class to store information about what operation you'll use and to return the total
 // this code returns an int(total) and string(operation)
