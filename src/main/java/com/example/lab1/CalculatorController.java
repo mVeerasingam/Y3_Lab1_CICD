@@ -19,4 +19,5 @@ public class CalculatorController {
 
         return num1 + " " + operation + " " + num2 + " = " + total;
     }
+
 }
