@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-// Notes:   JDK is Java 19
+// Note:   JDK is Java 19
 //          Gradle JVM was updated to Java 19
 
 @RestController
