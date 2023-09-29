@@ -20,7 +20,6 @@ public class CalculatorController {
         int total = calculatorFunction.calculate(); // calculates num1 and num2 by desired operator
 
         // creates an object to return the string(operator) & int(total)
-        CalculatorReturnTotal returnTotal = new CalculatorReturnTotal(operation, total);
-        return returnTotal;
+        return new CalculatorReturnTotal(operation, total);
     }
 }

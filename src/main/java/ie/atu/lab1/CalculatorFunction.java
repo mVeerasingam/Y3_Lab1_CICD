@@ -3,10 +3,10 @@ package ie.atu.lab1;
 // this class performs the calculation based on a switch from the desired operator i.e. add or divide
 
 public class CalculatorFunction {
-    private int num1;
-    private int num2;
+    private final int num1;
+    private final int num2;
     private int total;
-    private String operation;
+    private final String operation;
 
     // constructor
     public CalculatorFunction(int num1, int num2, String operation) {
