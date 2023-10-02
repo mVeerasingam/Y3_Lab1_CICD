@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 //          Gradle JVM was updated to Java 19
 
 @RestController
-public class CalculatorController {
+public class CalculatorController{
     // Want to return type object
     @GetMapping("/calculate")
     public Object calculate(@RequestParam int num1,
