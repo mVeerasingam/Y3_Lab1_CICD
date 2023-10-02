@@ -7,12 +7,10 @@ package ie.atu.lab1;
 // this code returns an int(total) and string(operation)
 // ref: https://stackoverflow.com/questions/10328604/return-a-string-and-int
 
-public class CalculatorReturnTotal {
-    private final String operation;
-    private final int total;
-
+public class CalculatorReturnTotal extends CalculatorFunction{
     //constructor
     public CalculatorReturnTotal(String operation, int total) {
+        super(operation, total);
         this.operation = operation;
         this.total = total;
     }
@@ -20,5 +18,4 @@ public class CalculatorReturnTotal {
     // getters and setters
     public String getOperation() {return operation;}
     public int getTotal() {return total;}
-
 }
